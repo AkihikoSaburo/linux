@@ -1,0 +1,7 @@
+config ACER_NITRO_GAMING_DRIVER2
+	tristate "Acer Nitro Fan driver"
+	help
+	  Custom fan control driver for Acer Nitro laptops.
+
+	  This adds fan speed management for Acer Nitro models
+	  using ACPI calls or embedded controller I/O.
